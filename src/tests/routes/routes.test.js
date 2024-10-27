@@ -1,4 +1,4 @@
-import { afterAll, beforeAll, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 
 test('GET /example', async () => {
   const response = await global.server.inject({
